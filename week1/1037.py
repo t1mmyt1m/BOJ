@@ -1,0 +1,5 @@
+count = int(input())
+i = list(map(int, input().split()))
+a = max(i)
+b = min(i)
+print(a*b)
